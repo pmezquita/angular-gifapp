@@ -4,6 +4,7 @@ import { GifsPageComponent } from './gifs-page/gifs-page.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import {ResultadosComponent} from "./resultados/resultados.component";
 import { GifCardComponent } from './components/gif-card/gif-card.component';
+import {SharedModule} from "../shared/shared.module";
 
 
 
@@ -18,7 +19,8 @@ import { GifCardComponent } from './components/gif-card/gif-card.component';
     GifsPageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ]
 })
 export class GifsModule { }
