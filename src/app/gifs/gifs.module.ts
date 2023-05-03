@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { GifsPageComponent } from './gifs-page/gifs-page.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import {ResultadosComponent} from "./resultados/resultados.component";
+import { GifCardComponent } from './components/gif-card/gif-card.component';
 
 
 
@@ -10,7 +11,8 @@ import {ResultadosComponent} from "./resultados/resultados.component";
   declarations: [
     GifsPageComponent,
     BusquedaComponent,
-    ResultadosComponent
+    ResultadosComponent,
+    GifCardComponent
   ],
   exports: [
     GifsPageComponent
